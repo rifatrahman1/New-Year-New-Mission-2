@@ -7,3 +7,35 @@
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", sans-serif;
 } */
+
+/* header style start */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.banner{
+    height: 600px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('/images/Banner\ Image.png');
+}
+.banner-title{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.banner-title h3{
+    font-size: 32px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", sans-serif;
+}
+.banner-title h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", sans-serif;
+}
+/* header style end */
