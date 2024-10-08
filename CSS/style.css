@@ -1,18 +1,23 @@
+
+/* some common css property styel */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
 /* body{
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", sans-serif;
 } */
 
 /* header style start */
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-}
+
 .banner{
     height: 600px;
     margin-top: 50px;
@@ -39,3 +44,7 @@
     font-family: "Merriweather", sans-serif;
 }
 /* header style end */
+
+/* all category style start */
+
+/* all category style end */
