@@ -355,17 +355,20 @@
     margin-top: 120px;
     background: rgba(255, 0, 0, 0.05);
 }
-.newsletter-description img{
+
+.newsletter-description img {
     margin-top: 80px;
 }
-.newsletter-description h1{
+
+.newsletter-description h1 {
     font-size: 60px;
     margin-top: 45px;
     font-weight: 900;
     color: rgb(7, 2, 17);
     font-family: "Merriweather", sans-serif;
 }
-.newsletter-description p{
+
+.newsletter-description p {
     font-size: 20px;
     margin-top: 22px;
     font-weight: 400;
@@ -373,7 +376,8 @@
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
 }
-.email{
+
+.email {
     width: 438px;
     height: 72px;
     font-size: 18px;
@@ -385,7 +389,8 @@
     color: rgba(7, 2, 17, 0.3);
     font-family: "Inter", sans-serif;
 }
-.input-btn{
+
+.input-btn {
     width: 210px;
     height: 72px;
     font-size: 20px;
@@ -400,51 +405,61 @@
     background-color: rgb(255, 0, 0);
     font-family: "Inter", sans-serif;
 }
+
 /* subscribe newsletter end */
 
 /* footer seciton start */
-footer{
+footer {
     margin-top: 120px;
     background: rgb(7, 2, 17);
 }
-.footer-details{
+
+.footer-details {
     display: flex;
     padding-top: 120px;
     justify-content: space-between;
 }
-.footer-details h3{
+
+.footer-details h3 {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
 }
-.site{
+
+.site {
     display: flex;
     gap: 15px;
     line-height: 40px;
 }
-.site p{
+
+.site p {
     font-size: 24px;
     color: white;
 }
-hr{
+
+hr {
     margin-top: 50px;
 }
-.footer-images{
+
+.footer-images {
     text-align: center;
 }
-.footer-images img{
+
+.footer-images img {
     margin-top: 50px;
     margin-left: 24px;
 }
-.copy-right{
+
+.copy-right {
     display: flex;
     margin-top: 50px;
     padding-bottom: 120px;
     justify-content: space-between;
 }
-.copy-right p{
+
+.copy-right p {
     font-size: 24px;
     font-weight: 500;
     color: rgb(255, 255, 255);
