@@ -159,85 +159,99 @@
 /*------- place section end */
 
 /* best offer section start */
-.best-offer{
+.best-offer {
     display: flex;
     margin-top: 120px;
     justify-content: space-between;
     align-items: center;
 }
-.offer-description h4{
+
+.offer-description h4 {
     font-size: 24px;
     flex-wrap: 500;
     font-family: "Inter", sans-serif;
     color: rgb(255, 0, 0);
 }
-.offer-description h1{
+
+.offer-description h1 {
     font-size: 48px;
     font-weight: 900;
     margin-top: 16px;
     font-family: "Merriweather", sans-serif;
     color: rgb(7, 2, 17);
 }
-.offer-description p{
+
+.offer-description p {
     font-size: 20px;
     font-weight: 400;
     margin-top: 25px;
     font-family: "Inter", sans-serif;
     color: rgba(7, 2, 17, 0.6);
 }
-.offer-image{
+
+.offer-image {
     width: 463px;
     height: 463px;
     border-radius: 50%;
     position: relative;
     border: 15px solid rgb(255, 0, 0);
 }
-.offer-image img{
+
+.offer-image img {
     position: absolute;
     bottom: 30px;
     left: 34px;
 }
-.offer-details h1{
+
+.offer-details h1 {
     font-size: 48px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
     color: rgb(255, 0, 0);
 }
-.offer-details p{
+
+.offer-details p {
     font-size: 20px;
     font-weight: 400;
     margin-top: 16px;
     font-family: "Inter", sans-serif;
     color: rgba(7, 2, 17, 0.6);
 }
-.offer-details img{
+
+.offer-details img {
     margin-top: 50px;
 }
+
 /* best offer section end */
 
 /* holyday sales section start */
-.holyday{
+.holyday {
     margin-top: 120px;
 }
-.holyday-description{
+
+.holyday-description {
     text-align: center;
 }
-.holyday-description h3{
+
+.holyday-description h3 {
     font-size: 24px;
     font-weight: 500;
     font-family: "Inter", sans-serif;
     color: rgb(7, 2, 17);
 }
-.holyday-description h1{
+
+.holyday-description h1 {
     font-size: 72px;
     font-weight: 900;
     font-family: "Merriweather", sans-serif;
     margin-top: 16px;
 }
-.holyday-description h1 span{
+
+.holyday-description h1 span {
     color: rgb(255, 0, 0);
 }
-.holyday-description p{
+
+.holyday-description p {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -245,10 +259,11 @@
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
 }
+
 /* holyday sales section end */
 
 /* -- holyday sales discount start */
-.holyday-discount{
+.holyday-discount {
     height: 286px;
     width: 286px;
     border-radius: 100%;
@@ -256,56 +271,66 @@
     transform: translateX(320%);
     background-color: rgb(255, 0, 0);
 }
-.discount{
+
+.discount {
     position: absolute;
     bottom: 85px;
     left: 70px;
     transform: rotate(-34.21deg);
 }
-.holyday-images{
+
+.holyday-images {
     margin-top: 150px;
 }
-.holyday-discount h1{
+
+.holyday-discount h1 {
     font-size: 73px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
 }
-.holyday-discount h3{
+
+.holyday-discount h3 {
     font-size: 24px;
     font-weight: 900;
     line-height: 29px;
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
 }
-.holyday-box{
+
+.holyday-box {
     position: relative;
     margin-top: 120px;
 }
-.box{
+
+.box {
     position: absolute;
     top: -170%;
 }
+
 /* -- holyday sales discount end */
 
 /* awesome portfolio seciton start */
-.awesome-portfolio{
+.awesome-portfolio {
     margin-top: 120px;
 }
-.portfolio-description h4{
+
+.portfolio-description h4 {
     font-size: 24px;
     font-weight: 500;
     color: rgb(255, 0, 0);
     font-family: "Inter", sans-serif;
 }
-.portfolio-description h1{
+
+.portfolio-description h1 {
     font-size: 48px;
     font-weight: 900;
     margin-top: 16px;
     color: rgb(7, 2, 17);
     font-family: "Merriweather", sans-serif;
 }
-.portfolio-description p{
+
+.portfolio-description p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -313,10 +338,104 @@
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
 }
-.portfolio-images{
+
+.portfolio-images {
     display: grid;
     gap: 24px;
     margin-top: 48px;
     grid-template-columns: repeat(3, 1fr);
 }
+
 /* awesome portfolio seciton end */
+
+/* subscribe newsletter start */
+.newsletter {
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-description img{
+    margin-top: 80px;
+}
+.newsletter-description h1{
+    font-size: 60px;
+    margin-top: 45px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", sans-serif;
+}
+.newsletter-description p{
+    font-size: 20px;
+    margin-top: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+}
+.email{
+    width: 438px;
+    height: 72px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 30px;
+    border: none;
+    margin-top: 48px;
+    border-radius: 50px 0 0 50px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: "Inter", sans-serif;
+}
+.input-btn{
+    width: 210px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 3px;
+    margin: 48px 0 80px 0;
+    background-color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+}
+/* subscribe newsletter end */
+
+/* footer seciton start */
+footer{
+    margin-top: 120px;
+    background: rgb(7, 2, 17);
+}
+.footer-details{
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-between;
+}
+.footer-details h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+}
+.site{
+    display: flex;
+    gap: 15px;
+    line-height: 40px;
+}
+.site p{
+    font-size: 24px;
+    color: white;
+}
+hr{
+    margin-top: 50px;
+}
+.footer-images{
+    text-align: center;
+}
+.footer-images img{
+    margin-top: 50px;
+    margin-left: 24px;
+}
+/* footer seciton end */
