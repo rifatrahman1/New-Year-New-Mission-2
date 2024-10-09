@@ -157,3 +157,23 @@
 }
 
 /*------- place section end */
+
+/* best offer section start */
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-image{
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    position: relative;
+    border: 15px solid rgb(255, 0, 0);
+}
+.offer-image img{
+    position: absolute;
+    bottom: 30px;
+    left: 34px;
+}
+/* best offer section end */
