@@ -438,4 +438,17 @@ hr{
     margin-top: 50px;
     margin-left: 24px;
 }
+.copy-right{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+}
+.copy-right p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
 /* footer seciton end */
